@@ -39,5 +39,6 @@ contrib/nuget/bin
 contrib/nuget/obj
 *.included
 bin/Release/*.*
+bin/Debug/*.*
 *.obj
 *.recipe
