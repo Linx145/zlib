@@ -20,6 +20,8 @@ Makefile
 
 *.tlog
 
+/zconf.h
+/Makefile
 /example
 /example64
 /examplesh
@@ -46,3 +48,15 @@ bin/Release/*.*
 bin/Debug/*.*
 *.obj
 *.recipe
+
+# Bazel directories
+/bazel-*
+/bazel-bin
+/bazel-genfiles
+/bazel-out
+/bazel-testlogs
+user.bazelrc
+
+# MODULE.bazel.lock is ignored for now as per this recommendation:
+# https://github.com/bazelbuild/bazel/issues/20369
+MODULE.bazel.lock
