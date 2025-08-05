@@ -2,8 +2,8 @@
 *.patch
 *.orig
 *.rej
-obj/
-bin/
+obj
+bin
 Makefile
 
 *~
@@ -44,8 +44,6 @@ contrib/vstudio/vc143/arm64
 contrib/nuget/bin
 contrib/nuget/obj
 *.included
-bin/Release/*.*
-bin/Debug/*.*
 *.obj
 *.recipe
 
